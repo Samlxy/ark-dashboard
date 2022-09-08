@@ -4,8 +4,6 @@
   height: 90vh;
   grid-template-columns: 400px 1fr;
   padding-top: 100px;
-  justify-content: center;
-  text-align: center;
 }
 
 .aside-menu {
@@ -17,10 +15,11 @@
 
 .toggle {
   width: 235px;
-  height: 27px;
+  height: 29px;
   background-color: #ffffff;
   display: inline-block;
-  padding-top: 8px;
+  padding-top: 10px;
+  margin-left: 40px;
   border-radius: 6px;
 }
 
@@ -33,7 +32,7 @@
 .bid {
   color: #ffffff;
   background: #a14807;
-  padding: 4px 47px;
+  padding: 7px 50px;
   border-radius: 3px;
 }
 
@@ -44,20 +43,132 @@
 }
 
 .category {
-  padding: 15px 0 25px;
+  padding: 25px 0 10px;
 }
-
 
 .main {
   background: #e5e5e5;
-  border: 1px solid black;
   color: #ffffff;
-  padding-top: 80px;
+  padding-top: 70px;
 }
 
 #request {
-  padding: 12px 1000px 12px 15px;
-  border-radius: 8px;
+  width: 1000px;
+  margin-left: 150px;
+  padding: 12px 20px 15px;
+  border-radius: 8px 0 0 8px;
   outline: none;
   border: 0;
+}
+
+.search-box {
+  width: 39px;
+  height: 42px;
+  background: #a14807;
+  display: inline-block;
+  position: relative;
+  top: 18px;
+  border-radius: 0 8px 8px 0px;
+}
+
+.search-icon2 {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+
+.search-div {
+  display: inline-block;
+}
+
+.ad-search {
+  padding: 20px 150px;
+  text-align: left;
+  color: #a14807;
+}
+
+.sort-row {
+  margin: 15px;
+  color: #686868;
+  border: 0.5px solid #000000;
+  border-radius: 5px;
+  padding: 5px 30px;
+  font-size: 14px;
+}
+
+.card {
+  width: 1050px;
+  height: 700px;
+  background: #ffffff;
+  color: #686868;
+  box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.06);
+  border-radius: 7px;
+  margin: 30px 150px 0;
+  text-align: left;
+}
+
+.card-cont {
+  padding: 50px;
+}
+
+.card-header {
+  font-size: 18px;
+  font-weight: 500;
+  color: #a14807;
+  padding-bottom: 20px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+
+.card-text {
+  letter-spacing: 0.03em;
+}
+
+.reaction {
+  position: relative;
+  left: 350px;
+  margin: 10px;
+  border: 1px solid #686868;
+  border-radius: 50%;
+  padding: 8px 8px 4px;
+}
+
+.label {
+  display: inline-block;
+  margin-left: -10px;
+}
+
+.cols {
+  border-radius: 12px;
+  color: #686868;
+  background: rgba(196, 196, 196, 0.3);
+  margin: 10px;
+  padding: 5px 20px;
+  letter-spacing: 0.03em;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.proposals {
+  letter-spacing: 0.03em;
+  padding-top: 20px;
+}
+
+.payments {
+  display: inline-block;
+}
+
+.verify {
+  margin-right: 30px;
+}
+
+.check {
+  border: 1px solid #686868;
+  border-radius: 50%;
+  padding: 0 4px;
+  margin-right: 10px;
+}
+
+.divider {
+  margin-top: -10px;
 }

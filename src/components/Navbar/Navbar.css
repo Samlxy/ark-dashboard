@@ -50,3 +50,16 @@ li.search {
   outline: none;
   border: 0;
 }
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.notification {
+  position: relative;
+  bottom: 6px;
+  right: 23px;
+  margin-right: -13px;
+}
